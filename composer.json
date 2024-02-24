@@ -16,6 +16,9 @@
         "silverleague/ideannotator": "^3.4"
     },
     "extra": {
+        "expose": [
+            "app/client/dist"
+        ],
         "project-files-installed": [
             ".htaccess",
             "app/.htaccess",

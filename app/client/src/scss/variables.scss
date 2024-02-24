@@ -1,0 +1,14 @@
+$max-width: 1200px;
+$max-widthContent: 980px;
+
+$breakpoints: (
+  'smartphone': 480px,
+  'medium': 700px,
+  'desktop': 1000px,
+  'maxWidth': $max-width,
+);
+
+$color-text: #1F2544;
+$color-primary: #81689D;
+$color-secondary: #FFD0EC;
+$color-white: #fff;

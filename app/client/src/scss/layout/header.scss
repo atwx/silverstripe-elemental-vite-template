@@ -1,0 +1,35 @@
+.header {
+    background-color: $color-primary;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+
+    .main-nav {
+        width: 100%;
+        max-width: $max-width;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            .nav_link {
+                a {
+                    color: $color-white;
+                    text-decoration: none;
+                    padding: 10px 20px;
+                    display: block;
+                }
+
+                &.nav_link--active {
+                    a {
+                        background-color: $color-white;
+                        color: $color-primary;
+                    }
+                }
+            }
+        }
+    }
+}

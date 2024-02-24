@@ -1,0 +1,41 @@
+.section--text-image {
+
+    .section_content {
+        .section_content_image {
+            width: 100%;
+
+            img {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+
+    @include media(">desktop") {
+        .section_content {
+            display: flex;
+
+            .section_content_image, .section_content_text {
+                width: 50%;
+            }
+
+            .section_content_text {
+                padding-left: 20px;
+            }
+        }
+
+        &.section--text-image-right {
+            .section_content {
+                .section_content_image {
+                    order: 2;
+                }
+
+                .section_content_text {
+                    order: 1;
+                    padding-left: 0;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}
